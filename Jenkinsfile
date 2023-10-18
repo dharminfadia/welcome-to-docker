@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'sh docker buildx build -t my-application:latest .'
+        sh 'sh ls'
       }
     }
 
