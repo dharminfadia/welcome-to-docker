@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'docker buildx build -t my-application:latest .'
+        sh 'sh docker buildx build -t my-application:latest .'
       }
     }
 
